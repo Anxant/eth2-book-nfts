@@ -3,3 +3,4 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
   const { deployer } = await getNamedAccounts()
   await deploy('ETH2NFT', { from: deployer, log: true })
 }
+jhdnwdhhhnqdih
